@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Information</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="markconverter.html">Mark Converter</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="weather.html">Weather</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Staff List</h2>
+    <p class="table-hint">Note: Click on the column headers Name or Salary to sort.</p>
+    <table id="staff-table">
+        <thead>
+            <tr>
+                <th class="sortable" data-sort-type="name">Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>ID</th>
+                <th>Start Date</th>
+                <th class="sortable" data-sort-type="salary">Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script.js"></script> 
+</body>
+</html>

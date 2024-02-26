@@ -1,0 +1,212 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; 
+}
+
+header, nav, main, section, footer {
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none; 
+    color: #333;
+}
+
+/* Profile Page */
+#profile-pic {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin: 0 auto 20px auto; 
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1); 
+}
+
+h1#name {
+    color: #dc3545;
+    text-align: center;
+}
+
+footer { 
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p#copyright {
+    color: #777;
+    margin: 5px;
+}
+
+/* Mark Converter Styles */
+#mark-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px; 
+}
+
+#calculate-grade {
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#calculate-grade:hover {
+    background-color: #0056b3; /* Slightly darker blue on hover */
+}
+
+#result, #validation-message {
+    margin-top: 10px; 
+    font-weight: bold;
+}
+
+#validation-message {
+    color: #dc3545; /* Red for error messages */
+}
+
+/* Staff Table Styles */
+#staff-table {
+    border-collapse: collapse; 
+    width: 80%; 
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+
+#staff-table th, #staff-table td {
+    border: 1px solid #ddd;
+    padding: 10px; 
+    text-align: left;
+}
+
+#staff-table th {
+    background-color: #f0f0f0;  
+    cursor: pointer; 
+}
+
+#staff-table th:hover {
+    background-color: #ddd; 
+}
+
+#staff-table tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+p.table-hint {
+    font-size: 14px; 
+    color: #666;      
+    margin-top: 10px;
+    text-align: center; 
+}
+
+/* Weather Converter Styles */
+#temp-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px; 
+}
+
+button { /* Style both buttons together */
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px; /* Add a little space between buttons */
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+#conversion-result {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+body h2 { 
+    color: #333; /* A darker heading */
+    text-align: center;
+}
+
+
+/* Styling the profile section */
+#profile {
+    text-align: center; /* Center the content */
+    width: 60%;     /* Adjust width as needed */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 25px;
+    background-color: #f8f8f8; /* Light background */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#name {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#profile p {
+    margin-bottom: 15px; /* Add spacing between paragraphs */
+    line-height: 1.5;    /* Increase line spacing for readability */
+}
+
+.converter-container {
+    width: 600px; /* Set a specific width*/
+    margin: 0 auto; /* Centers the element horizontally */
+}
+
+.weather-container {
+    width: 800px; /* Set a specific width*/
+    margin: 0 auto; /* Centers the element horizontally */
+}
+
+/* Styling the navigation bar */
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding-left: 700px;
+    overflow: hidden; /* Ensure list items stay in one line */
+}
+
+nav ul li {
+    float: left; /* Make list items float horizontally */
+}
+
+nav ul li a {
+    display: block;     /* Make links occupy more space */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #a6abb1; /* Hover effect */
+    border-radius: 10%;
+
+}
+
