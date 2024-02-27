@@ -32,6 +32,7 @@ function validateMark(mark) {
 
 function MarkToGrade() {
     var markStr = $('#mark-input').val();
+    $('#result').text(''); // Clear previous messages
     $('#validation-message').text(''); // Clear previous messages
 
     try {
